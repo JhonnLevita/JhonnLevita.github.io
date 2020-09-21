@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 46%;
+    margin: auto;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+.recep {
+    font-style: italic;
+    text-align: right;
+}
+
+.emis {
+    font-style: italic;
+}
+
+.recep span {
+    font-weight: bold;
+}
+
+.emis span {
+    font-weight: bold;
+}
+
+.message h1 {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.message h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.message span.sp1 {
+    line-height: 3em;
+}
+
+.message ul {
+    margin-left: 2em;
+}
+
+.message ul.ul1 {
+    margin-left: 2em;
+    list-style: none;
+}
+
+.message ul.ul2 {
+    margin-left: 2em;
+    list-style: none;
+}
+
+.message ul.ul3 {
+    margin-left: 2em;
+    margin-bottom: 2em;
+    list-style: none;
+}
+
+.message span.sp2 {
+    line-height: 3.5em;
+}
+
+.message ol {
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.message p.p1 span {
+    margin-left: 2em;
+}
+
+.end {
+    margin-top: 6em;
+}

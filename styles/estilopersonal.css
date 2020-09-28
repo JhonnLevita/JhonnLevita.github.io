@@ -151,6 +151,9 @@
                     .contenedor section.grid {
                         grid-template-columns: repeat(1, 300px)
                     }
+                    h1 {
+                        height: 35px;
+                    }
                 }
                 
                 @media(max-width:750px) {

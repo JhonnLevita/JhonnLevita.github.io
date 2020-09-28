@@ -4,34 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Personal Curso Ingeniería Web</title>
+    <title>JHONN LEVITA</title>
     <link rel="stylesheet" href="styles/estilopersonal.css">
     <link rel="icon" type="image/png" href="images/logounc.ico">
+    <!--Recurso de  Framework CSS W3CSS y PureCSS-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
     <!--Recurso Fuente Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+    <!--Recurso de Iconos Iconmoon-->
+    <link rel="stylesheet" href="styles/icomoon/style.css">
+
+
 </head>
 
 <body>
     <div class="contenedor">
-        <header>
+        <header class="headerp">
             <img src="images/unc.png" alt="Logo UNC" class="logo">
-            <h1>PRIMERA PÁGINA WEB DESARRROLLADA EN EL CURSO DE INGENIERÍA WEB</h1><br/>
+            <h1>PÁGINA WEB PERSONAL JHONN LEVITA HUINGO</h1><br/>
         </header>
 
         <nav class="barraNav">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="carta05.html" target="_blank">Carta</a></li>
+                <li><a href="index.html" class="icon-home3">Home</a></li>
+                <li><a href="About.html" class="icon-file-text2">About</a></li>
+                <li><a href="Contact.html" class="icon-mail4">Contact</a></li>
+                <li><a href="carta05.html" target="_blank" class="icon-libreoffice">Carta</a></li>
             </ul>
         </nav>
-
-        <hr>
-
         <br/><br/>
+
+        <section class="content">
+
+
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/jhonanderson.levitahuingo" target="_blank" class="icon-facebook2"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/23000Jhonn" target="_blank" class="icon-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/jhonnlevita/?hl=es-la" target="_blank" class="icon-instagram"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:jlevitah15_2@unc.edu.pe" class="icon-mail4"></a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
 
         <article class="grid2">
             <div>
@@ -67,13 +93,46 @@
             </div>
 
             <div>
-                <img src="images/spacework.png" alt="SpaceWork">
-                <br/>
-                <img src="images/read.png" alt="read">
+                <div class="w3-content w3-display-container">
+                    <img class="mySlides" src="images/read2.jpg" style="width:100%">
+                    <img class="mySlides" src="images/read.jpg" style="width:100%">
+                    <img class="mySlides" src="images/workTeam.jpg" style="width:100%">
+                    <img class="mySlides" src="images/spaceG.jpg" style="width:100%">
+                    <img class="mySlides" src="images/prog.jpg" style="width:100%">
+
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+
+                <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+
+                    function plusDivs(n) {
+                        showDivs(slideIndex += n);
+                    }
+
+                    function showDivs(n) {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        if (n > x.length) {
+                            slideIndex = 1
+                        }
+                        if (n < 1) {
+                            slideIndex = x.length
+                        }
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        x[slideIndex - 1].style.display = "block";
+                    }
+                </script>
+
 
             </div>
         </article>
     </div>
+
 
     <footer>
 

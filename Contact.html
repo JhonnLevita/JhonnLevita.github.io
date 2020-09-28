@@ -4,49 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Personal Curso Ingeniería Web</title>
+    <title>JHONN LEVITA</title>
     <link rel="stylesheet" href="styles/estilopersonal.css">
     <link rel="icon" type="image/png" href="images/logounc.ico">
+    <!--Recurso de  Framework CSS W3CSS y PureCSS-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
     <!--Recurso Fuente Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+    <!--Recurso de Iconos Iconmoon-->
+    <link rel="stylesheet" href="styles/icomoon/style.css">
+
 </head>
 
 <body>
     <div class="contenedor">
-        <header>
+        <header class="headerp">
             <img src="images/unc.png" alt="Logo UNC" class="logo">
-            <h1>PRIMERA PÁGINA WEB DESARRROLLADA EN EL CURSO DE INGENIERÍA WEB</h1><br/>
+            <h1>PÁGINA WEB PERSONAL JHONN LEVITA HUINGO</h1><br/>
         </header>
 
         <nav class="barraNav">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="carta05.html" target="_blank">Carta</a></li>
+                <li><a href="index.html" class="icon-home3">Home</a></li>
+                <li><a href="About.html" class="icon-file-text2">About</a></li>
+                <li><a href="Contact.html" class="icon-mail4">Contact</a></li>
+                <li><a href="carta05.html" target="_blank" class="icon-libreoffice">Carta</a></li>
             </ul>
         </nav>
-
-        <hr>
-
         <br/><br/>
 
-        <article>
-            <p>
+        <section class="content">
 
-                <h3>Información de Contacto</h3> <br/>
+
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/jhonanderson.levitahuingo" target="_blank" class="icon-facebook2"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/23000Jhonn" target="_blank" class="icon-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/jhonnlevita/?hl=es-la" target="_blank" class="icon-instagram"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:jlevitah15_2@unc.edu.pe" class="icon-mail4"></a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <article>
+            <p class="redes">
+
+                <h3>Información de Contacto</h3> <br/><br/>
 
                 <ul>
-                    <h3>Información Personal de Contacto</h3>
+                    <h3>Información Personal de Contacto</h3><br/>
 
 
-                    <li> Numero de celular: +51 999701011 <br/></li>
+                    <li> Numero de celular: +51 999701011 <br/><br/></li>
 
                     <li>
                         Email:
-                        <a href="mailto:jlevitah15_2@unc.edu.pe" target="_blank">jlevitah15_2@unc.edu.pe</a>
+
+                        <a class="pure-button" href="mailto:jlevitah15_2@unc.edu.pe">
+                            <i class="fa fa-shopping-cart fa-lg"></i>jlevitah15_2@unc.edu.pe
+                        </a>
 
                     </li>
                     </br>
@@ -54,20 +81,26 @@
                     </br>
 
                     <li>
-                        <img src="images/linkedin.png" alt="">
-                        <address><a href="https://pe.linkedin.com/in/jhonn-levita-huingo-3a2066135" target="_blank">https://pe.linkedin.com/JHONNLEVITA</a></address>
+                        <img src="images/linkedin.png" alt="logoLinkein"></br>
+
+                        <a class="pure-button" href="https://pe.linkedin.com/in/jhonn-levita-huingo-3a2066135" target="_blank">
+                            <i class="fa fa-shopping-cart fa-lg"></i>Perfil LinkedIn
+                        </a>
                     </li>
 
                     </br>
 
                     <li>
-                        <img src="images/face.png" alt="">
-                        <address><a href="https://www.facebook.com/jhonanderson.levitahuingo" target="_blank">https://www.facebook.com/JHONNLEVITA</a></address></li>
-                    <br/>
+                        <img src="images/face.png" alt="logoface"></br>
 
+                        <a class="pure-button" href="https://www.facebook.com/jhonanderson.levitahuingo" target="_blank">
+                            <i class="fa fa-shopping-cart fa-lg"></i>Perfil Facebook
+                        </a>
+                    </li>
                 </ul>
             </p>
         </article>
+
     </div>
 
     <footer>

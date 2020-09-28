@@ -1,89 +1,160 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.contenedor {
-    width: 90%;
-    margin: auto;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    height: 95px;
-    font-family: 'Barlow', sans-serif;
-}
-
-h1 {
-    padding: 32px;
-}
-
-.contenedor img.logo {
-    height: 100px;
-}
-
-body {
-    background: black;
-    color: white;
-    /*Uso de recurso en linea "HeroPatterns.com"*/
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='112' height='92' viewBox='0 0 112 92'%3E%3Cg fill='%23ba0c0c' fill-opacity='0.24'%3E%3Cpath fill-rule='evenodd' d='M72 10H40L16 20H0v8h16l24-14h32l24 14h16v-8H96L72 10zm0-8H40L16 4H0v8h16l24-6h32l24 6h16V4H96L72 2zm0 84H40l-24-6H0v8h16l24 2h32l24-2h16v-8H96l-24 6zm0-8H40L16 64H0v8h16l24 10h32l24-10h16v-8H96L72 78zm0-12H40L16 56H0v4h16l24 14h32l24-14h16v-4H96L72 66zm0-16H40l-24-2H0v4h16l24 6h32l24-6h16v-4H96l-24 2zm0-16H40l-24 6H0v4h16l24-2h32l24 2h16v-4H96l-24-6zm0-16H40L16 32H0v4h16l24-10h32l24 10h16v-4H96L72 18z'/%3E%3C/g%3E%3C/svg%3E");
-    font-family: 'Oswald', sans-serif;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-.barraNav {
-    display: flex;
-    font-size: 17px;
-    height: 60px;
-    padding: 10px 0;
-}
-
-.contenedor hr {
-    width: 240px;
-}
-
-.barraNav ul {
-    list-style: none;
-}
-
-.barraNav ul {
-    display: flex;
-}
-
-.barraNav ul li {
-    padding: 10px;
-}
-
-ul li a:hover {
-    border-bottom: 2px solid white;
-}
-
-.contenedor article.grid {
-    display: grid;
-    grid-template-columns: 400px 100px;
-    margin-top: 2%;
-    margin-left: 1%;
-}
-
-.contenedor article.grid2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-footer {
-    font-family: 'Lora', serif;
-    text-align: center;
-    background-color: black;
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    bottom: 0;
-    padding: 20px;
-}
+                * {
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                .contenedor {
+                    width: 90%;
+                    margin: auto;
+                    min-height: 95vh;
+                    flex-wrap: wrap;
+                }
+                
+                .headerp {
+                    display: flex;
+                    justify-content: center;
+                    background-color: black;
+                    height: 95px;
+                    font-family: 'Barlow', sans-serif;
+                    border-top: 1px solid white;
+                }
+                
+                h1 {
+                    padding: auto;
+                    font-weight: bold;
+                }
+                
+                .contenedor img.logo {
+                    height: 90px;
+                }
+                
+                body {
+                    background: black;
+                    color: white;
+                    /*Uso de recurso en linea "HeroPatterns.com"*/
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='112' height='92' viewBox='0 0 112 92'%3E%3Cg fill='%23ba0c0c' fill-opacity='0.24'%3E%3Cpath fill-rule='evenodd' d='M72 10H40L16 20H0v8h16l24-14h32l24 14h16v-8H96L72 10zm0-8H40L16 4H0v8h16l24-6h32l24 6h16V4H96L72 2zm0 84H40l-24-6H0v8h16l24 2h32l24-2h16v-8H96l-24 6zm0-8H40L16 64H0v8h16l24 10h32l24-10h16v-8H96L72 78zm0-12H40L16 56H0v4h16l24 14h32l24-14h16v-4H96L72 66zm0-16H40l-24-2H0v4h16l24 6h32l24-6h16v-4H96l-24 2zm0-16H40l-24 6H0v4h16l24-2h32l24 2h16v-4H96l-24-6zm0-16H40L16 32H0v4h16l24-10h32l24 10h16v-4H96L72 18z'/%3E%3C/g%3E%3C/svg%3E");
+                    font-family: 'Oswald', sans-serif;
+                }
+                
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+                
+                .barraNav {
+                    display: flex;
+                    background-color: black;
+                    font-size: 20px;
+                    height: 60px;
+                    padding: 10px 0;
+                    border-bottom: 1.5px solid white;
+                }
+                
+                .barraNav ul {
+                    list-style: none;
+                }
+                
+                .barraNav ul {
+                    display: flex;
+                }
+                
+                .barraNav ul li {
+                    padding: 10px;
+                }
+                
+                ul li a:hover {
+                    color: #ff9900;
+                    border-bottom: 2px solid #ff9900;
+                }
+                
+                .contenedor section.grid {
+                    display: grid;
+                    grid-template-columns: 300px 300px;
+                    margin-top: 2%;
+                    margin-left: 1%;
+                    max-width: 300px;
+                }
+                
+                .contenedor .w3-card {
+                    background-color: black;
+                }
+                
+                .contenedor article.grid2 {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                }
+                /* Barra social */
+                
+                .social {
+                    position: fixed;
+                    left: 0;
+                    top: 200px;
+                    z-index: 2000;
+                }
+                
+                .social ul {
+                    list-style: none;
+                }
+                
+                .social ul li a {
+                    display: inline-block;
+                    color: #fff;
+                    background: #000;
+                    padding: 10px 15px;
+                    text-decoration: none;
+                    -webkit-transition: all 500ms ease;
+                    -o-transition: all 500ms ease;
+                    transition: all 500ms ease;
+                }
+                
+                .social ul li .icon-facebook2 {
+                    background: #1e54c9;
+                }
+                
+                .social ul li .icon-twitter {
+                    background: #00abf0;
+                }
+                
+                .social ul li .icon-instagram {
+                    background: #ce1ec5;
+                }
+                
+                .social ul li .icon-mail4 {
+                    background: #424242;
+                }
+                
+                .social ul li a:hover {
+                    background: #612c2c;
+                    padding: 10px 30px;
+                }
+                
+                .contenedor section div.w3-half {
+                    background-color: black;
+                }
+                
+                .contenedor article p.redes {
+                    line-height: 1.5em;
+                }
+                
+                footer {
+                    align-self: flex-end;
+                    font-family: 'Lora', serif;
+                    text-align: center;
+                    background-color: black;
+                    width: 100%;
+                    height: 50px;
+                    padding: 20px;
+                }
+                
+                @media (max-width: 650px) {
+                    .contenedor section.grid {
+                        grid-template-columns: repeat(1, 300px)
+                    }
+                }
+                
+                @media(max-width:750px) {
+                    .contenedor article.grid2 {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                }

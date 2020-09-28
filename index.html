@@ -4,72 +4,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Personal Curso Ingeniería Web</title>
+    <title>JHONN LEVITA</title>
     <link rel="stylesheet" href="styles/estilopersonal.css">
     <link rel="icon" type="image/png" href="images/logounc.ico">
+    <!--Recurso de  Framework CSS W3CSS y PureCSS-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
     <!--Recurso Fuente Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+    <!--Recurso de Iconos Iconmoon-->
+    <link rel="stylesheet" href="styles/icomoon/style.css">
+
 </head>
 
 <body>
 
     <div class="contenedor">
 
-        <header>
+        <header class="headerp">
             <img src="images/unc.png" alt="Logo UNC" class="logo">
-            <h1>PRIMERA PÁGINA WEB DESARRROLLADA EN EL CURSO DE INGENIERÍA WEB</h1><br/>
+            <h1>PÁGINA WEB PERSONAL JHONN LEVITA HUINGO</h1><br/>
         </header>
 
 
         <nav class="barraNav">
 
             <ul class="barraItem">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="carta05.html" target="_blank">Carta</a></li>
+                <li><a href="index.html" class="icon-home3">Home</a></li>
+                <li><a href="About.html" class="icon-file-text2">About</a></li>
+                <li><a href="Contact.html" class="icon-mail4">Contact</a></li>
+                <li><a href="carta05.html" target="_blank" class="icon-libreoffice">Carta</a></li>
             </ul>
         </nav>
-
-        <hr>
-
         <br/>
         <br/>
 
-        <section>
-            <h4>Bienvenido a la página web desarrollada como primer ejemplo aplicativo de Etiquetas HMTL5 y CSS básico en el curso de Ingeniería Web. </br>
-            </h4>
-            </br>
-            <ins><b>Información Personal de Estudiante:</b></ins></br>
-
+        <section class="content">
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/jhonanderson.levitahuingo" target="_blank" class="icon-facebook2"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/23000Jhonn" target="_blank" class="icon-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/jhonnlevita/?hl=es-la" target="_blank" class="icon-instagram"></a>
+                    </li>
+                    <li>
+                        <a href="mailto:jlevitah15_2@unc.edu.pe" class="icon-mail4"></a>
+                    </li>
+                </ul>
+            </div>
         </section>
 
+        <section class="grid">
 
-        <article class="grid">
             <div>
-                <p>
-                    Nombre del estudiante: Jhonn Levita Huingo</br>
-                    </br>Edad: 22 años <br/><br/> Lugar de Nacimiento: Cajamarca <br/><br/> Carrera Profesional: Ingeniería de Sistemas
-                    <br/><br/> Universidad: <abbr title="Universidad Nacional de Cajamarca">UNC</abbr> <br/><br/>
-                </p>
+                <div class="w3-card">
+                    <div class="w3-card-4">
+                        <img src="images/perfil.jpg" alt="Levita huingo Jhonn" style="width:100%;opacity:0.85">
+                        <div class="w3-container">
+                            <h4><b>Jhonn Levita</b></h4>
+                            <p>Estudiante</p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
 
             </div>
+
             <div>
-                <img src="images/perfil.png" alt="Alumno Levita Huingo Jhonn">
-            </div>
 
-        </article>
+                <div class="w3-card">
+                    <div class="w3-card-4">
+                        <header class="w3-container w3-grey">
+                            <h1>Información Personal de Estudiante</h1>
+                        </header>
+                        <div class="w3-container">
+                            <p>
+                                Nombre del estudiante: Jhonn Levita Huingo</br>
+                                </br>Edad: 22 años <br/><br/> Lugar de Nacimiento: Cajamarca <br/><br/> Carrera Profesional: Ingeniería de Sistemas
+                                <br/><br/> Universidad: <abbr title="Universidad Nacional de Cajamarca">UNC</abbr> <br/><br/>
+                            </p>
+                        </div>
+                    </div>
+        </section>
+        </div>
 
-    </div>
+
+        <footer>
+
+            <address>Autor: Jhonn Levita Huingo C° UNC 2020</address>
+
+        </footer>
 
 
-    <footer>
-
-        <address>Autor: Jhonn Levita Huingo C° UNC 2020</address>
-
-    </footer>
 
 </body>
 

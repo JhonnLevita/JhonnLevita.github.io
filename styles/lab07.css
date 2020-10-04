@@ -1,0 +1,111 @@
+* {
+    background-color: #b5e7e1;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+}
+
+button.extraer {
+    background-color: #f3c42a;
+    width: 10em;
+    height: 2em;
+    border-radius: 0.5em;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+button.colorear {
+    background-color: #b9604a;
+    width: 10em;
+    height: 2em;
+    border-radius: 0.5em;
+    border-color: #a71111;
+    color: #ffffff;
+}
+
+span {
+    background-color: #3874b8;
+    width: 10em;
+    display: inline-block;
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 0.3em;
+}
+
+.nombres {
+    background-color: #ffffff;
+    width: 200px;
+    height: 2.5em;
+}
+
+.fecha {
+    background-color: #ffffff;
+    width: 15em;
+    height: 2.5em;
+}
+
+.apellido {
+    background-color: #ffffff;
+    width: 200px;
+    height: 2.5em;
+}
+
+.materno {
+    background-color: #ffffff;
+    width: 15em;
+    height: 2.5em;
+}
+
+.nombre {
+    background-color: #ffffff;
+    width: 15em;
+    height: 2.5em;
+}
+
+span.logA {
+    background-color: #b9604a;
+    width: 10em;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+span.ed {
+    background-color: #b9604a;
+    width: 10em;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+span.ms {
+    background-color: #b9604a;
+    width: 10em;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+.longapellido {
+    background-color: #ffffff;
+    width: 15em;
+    height: 2.5em;
+}
+
+.edad {
+    background-color: #ffffff;
+    width: 15em;
+    height: 2.5em;
+}
+
+.mes {
+    background-color: #ffffff;
+    width: 15em;
+    height: 2.5em;
+}
+
+.form {
+    margin-bottom: 2em;
+}

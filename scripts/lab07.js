@@ -64,3 +64,73 @@ function extraer() {
         document.getElementById("mess").value = "Diciembre";
     }
 }
+let v = 1;
+
+function colorear() {
+
+
+    var col = document.getElementById("col");
+
+    if (v) {
+
+        var loA = document.getElementById("loA");
+        loA.style.backgroundColor = '#3874b8';
+
+        var edad = document.getElementById("edad");
+        edad.style.backgroundColor = '#3874b8';
+
+        var mes = document.getElementById("mes");
+        mes.style.backgroundColor = '#3874b8';
+
+        var na = document.getElementById("na");
+        na.style.backgroundColor = '#b9604a';
+
+        var f = document.getElementById("f");
+        f.style.backgroundColor = '#b9604a';
+
+        var p = document.getElementById("p");
+        p.style.backgroundColor = '#b9604a';
+
+        var m = document.getElementById("m");
+        m.style.backgroundColor = '#b9604a';
+
+        var n = document.getElementById("n");
+        n.style.backgroundColor = '#b9604a';
+
+        var col = document.getElementById("col");
+        col.style.backgroundColor = '#3874b8';
+        col.style.borderColor = '#ffffff'
+
+        v = 0;
+    } else {
+
+        var loA = document.getElementById("loA");
+        loA.style.backgroundColor = '#b9604a';
+
+        var edad = document.getElementById("edad");
+        edad.style.backgroundColor = '#b9604a';
+
+        var mes = document.getElementById("mes");
+        mes.style.backgroundColor = '#b9604a';
+
+        var na = document.getElementById("na");
+        na.style.backgroundColor = '#3874b8';
+
+        var f = document.getElementById("f");
+        f.style.backgroundColor = '#3874b8';
+
+        var p = document.getElementById("p");
+        p.style.backgroundColor = '#3874b8';
+
+        var m = document.getElementById("m");
+        m.style.backgroundColor = '#3874b8';
+
+        var n = document.getElementById("n");
+        n.style.backgroundColor = '#3874b8';
+
+        var col = document.getElementById("col");
+        col.style.backgroundColor = '#b9604a';
+
+        v = 1
+    }
+}

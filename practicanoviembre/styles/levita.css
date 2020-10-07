@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: center;
+    padding: 0;
+}
+
+.contenedor img {
+    width: 300px;
+    height: 250px;
+}
+
+.contenedor section.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.contenedor p {
+    color: #bbbbbb;
+}
+
+.contenedor span.sectores {
+    color: #ff0000;
+}
+
+.contenedor span.inm {
+    color: #ffffff;
+    background-color: #cc4646;
+    padding: 1px;
+}

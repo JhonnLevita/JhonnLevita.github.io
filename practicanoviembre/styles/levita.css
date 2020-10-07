@@ -1,16 +1,22 @@
 .contenedor img {
-    width: 300px;
+    width: 280px;
     height: 200px;
     margin: 5px 0px 5px 0px;
 }
 
 .contenedor section.grid {
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: 280px 280px 280px 280px;
     margin-top: 2%;
-    max-width: 300px;
+    max-width: 280px;
     margin: center;
     grid-column-gap: 20px;
+}
+
+.contenedor button.bt {
+    border: none;
+    background-color: #ffffff;
+    float: right;
 }
 
 .contenedor p {
@@ -28,14 +34,15 @@
 .contenedor img.i {
     width: 20px;
     height: 20px;
-    float: right;
+    padding: 0 10px 0 10px;
 }
 
 .contenedor button.inm {
     color: #ffffff;
     background-color: #cc4646;
-    padding: 1px;
+    padding: 5px;
     border: none;
+    display: inline-block;
 }
 
 .contenedor span.t1 {
@@ -61,7 +68,7 @@
 .contenedor button.tc {
     color: #ffffff;
     background-color: #f0ca21;
-    padding: 2px;
+    padding: 5px;
     border: none;
 }
 
@@ -90,23 +97,26 @@
 .contenedor span.tl1 {
     color: #bbbbbb;
     font-weight: bold;
-    margin-left: 180px;
+    float: right;
+    margin-top: 37px;
 }
 
 .contenedor span.tl2 {
     color: #bbbbbb;
     font-weight: bold;
-    margin-left: 180px;
+    float: right;
+    margin-top: 75px;
 }
 
 .contenedor span.tl3 {
     color: #bbbbbb;
     font-weight: bold;
-    margin-left: 180px;
+    float: right;
+    margin-top: 40px;
 }
 
 .contenedor span.tl4 {
     color: #bbbbbb;
     font-weight: bold;
-    margin-left: 180px;
+    float: right;
 }
